@@ -1,3 +1,4 @@
-import pkg_resources
+from importlib.metadata import distribution
 
-__version__ = pkg_resources.get_distribution('waiting').version
+
+__version__ = distribution("waiting").version
