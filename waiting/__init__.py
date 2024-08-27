@@ -1,7 +1,6 @@
-import inspect
 import sys
 
-from .__version__ import __version__
+from .__version__ import __version__ as __version__
 from contextlib import contextmanager
 
 try:
